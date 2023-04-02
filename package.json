@@ -1,0 +1,18 @@
+{
+  "name": "NotesAPI",
+  "version": "1.0.0",
+  "description": "A simple API for blog posts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Allen Schmerler",
+  "license": "ISC",
+  "dependencies": {
+    "@replit/database": "^2.0.2",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.20"
+  }
+}
